@@ -1,0 +1,56 @@
+*{
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+
+
+#yellow_cats {
+    background-color: yellow;
+}
+
+#media {
+    text-align: center;
+}
+
+#cat_img {
+    text-align: center;
+}
+
+img {
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    border: 5px solid orangered;
+}
+
+#difference {
+    border: solid 1px red;
+    text-align: center;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vmax;
+}
+
+#lion_table {
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vmax;
+}
+
+#lion_table th{
+    border: solid 1px black;
+    text-align: center;
+}
+
+#lion_table td{
+    border: solid 1px black;
+    text-align: center;
+}
+
+#lion_img {
+    text-align: center;
+}
