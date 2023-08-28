@@ -1,0 +1,189 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* body{
+    width: 800px;
+    height: 800px;
+} */
+
+article{
+    width: 1360px;
+    height: 850px;
+    
+}
+/* Left Side */
+#leftSide{
+    width: 680px;
+    height: 750px;
+    display: inline;
+    float: left;
+    background-color: #FAFAFA;
+    padding-top: 100px;
+}
+
+#leftSide h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Fields */
+
+.field{
+    color: gray;
+}
+INPUT[type="text"] {
+    background-color: #DEDEDE;
+    color: #838383;
+    margin-left: 65px;
+    width: 300px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border: none;
+    padding-left: 10px;
+}
+
+/* Remember and Forgot buttons */
+
+#rememberForgotButtons{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+#remember{
+    float: left;
+}
+#forgot{
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+#loginButton{
+    background-color: #9C27B0;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+/* Connect Block */
+
+#connect{
+    display: block;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#connect {
+	overflow: hidden;
+}
+#connect:before,
+#connect:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+    box-sizing: border-box;
+	width: 100%;
+	height: 1px;
+	background: #AAAAAA;
+	border: solid #FFF;
+	border-width: 0 10px;
+}
+#connect:before {
+	margin-left: -100%;
+}
+#connect:after {
+	margin-right: -100%;
+}
+
+/* Icons Block */
+
+#icons{
+    width: 300px;
+    display: block;
+    margin-left: 200px;
+    margin-top: 5%;
+}
+
+#icons i{
+    margin: 0px 20px;
+}
+
+/* Copy Block */
+
+#copy{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Right Side */
+
+#rightSide{
+    width: 680px;
+    height: 850px;
+    display: inline;
+    float: right;
+    background: linear-gradient(to top left, #9826AC, #1F212B);
+    color: white;
+    text-align: center;
+}
+
+#rightText{
+    margin-top: 50%;
+    
+}
+
+#rightText h1{
+    font-size: 3em;
+}
+
+#rightText p{
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Icon */
+
+#addIcon{
+    position: absolute;
+    top: 35%;
+    left: 73%;
+}
+
+#registerButton{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 40%;
+    width: 190px;
+    height: 70px;
+    margin-top: 5%;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+

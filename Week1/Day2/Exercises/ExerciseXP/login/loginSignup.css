@@ -1,0 +1,101 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navBar{
+    background-color: black;
+    height: 50px;
+}
+
+#navBar i{
+    float: left;
+    margin: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top: #000000 solid 1px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+
+/* FORM */
+  #form{
+    margin-top: 5%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #inputMessage{
+    margin-bottom: 5%;
+    margin-left: 25%;
+    font-size: large;
+    font-weight: bold;
+  }
+  label {
+    width: 110px;
+    display: inline-block;
+    vertical-align:middle;
+    margin: 10px;
+  }
+  
+  input, textarea {
+    width: 249px;
+  }
+  
+  
+  select {
+    width: 254px;
+  }
+  
+  input[type=submit] {
+    width: 170px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: gray;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  input[type=submit]:hover{
+    background-color: green;
+    border-radius: 10%;
+    border: none;
+    color: white;
+  }

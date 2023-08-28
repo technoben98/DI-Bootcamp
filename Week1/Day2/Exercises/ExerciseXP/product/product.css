@@ -1,0 +1,222 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar Here */
+
+#navBar{
+    background-color: black;
+    height: 50px;
+}
+
+#navBar i{
+    float: left;
+    margin: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+/* Main Article Here */
+article{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    margin-left: 4%;
+}
+
+.saleBlock{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin: 10px;
+    width: 20vh;
+    font-size: small;
+}
+
+.saleBlock img{
+    width: 100%;
+    text-align: center;
+    /* margin-left: 10%; */
+    /* margin-top: 5%; */
+}
+
+.new {
+    font-weight: bold;
+    background-color: #16A085;
+    height: 25px;
+    width: 45px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    position:absolute;
+    top: 0;
+}
+
+.discont{
+    font-weight: bold;
+    background-color: red;
+    height: 25px;
+    width: 45px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.buttonsOnImage{
+    position:absolute;
+    top: 20%;
+    left: 7%;
+    visibility: hidden;
+}
+
+.buttonsOnImage i {
+    background-color: white;
+    padding: 15px 7px;
+    margin: 5px;
+}
+
+.buttonsOnImage i:hover{
+    background-color: #16A085;
+}
+
+.underImage{
+    text-align: center;
+}
+
+.name{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.newPrice{
+    color: #16A085;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.oldPrice{
+    text-decoration:line-through;
+    display: inline;
+    color: gray;
+}
+
+button {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    background-color: white;
+    border: gray 1px solid;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+.saleBlock:hover{
+    box-shadow: 5px 0px 20px 1px gray;
+}
+
+.saleBlock:hover .buttonsOnImage{
+    visibility: visible;
+}
+
+.saleBlock:hover button {
+    background-color: #16A085;
+    color: white;
+    border-radius: 7%;
+    border: none;
+}
+
+/* Responsive Features */
+
+/* Large Devices */
+
+@media screen and (max-width:1200px) {
+    article {
+        margin-left: 0px;
+    }
+    .saleBlock{
+        width: 26vh;
+    }
+    .buttonsOnImage {
+        left: 15%;
+    }
+}
+
+/* Medium Devices */
+
+@media screen and (max-width:992px) {
+    article {
+        margin-left: 0px;
+    }
+    .saleBlock{
+        width: 17vh;
+    }
+    .buttonsOnImage {
+        left: 6%;
+        top: 19%;
+    }
+}
+
+/* Small Devices */
+
+@media screen and (max-width:767px){
+    article {
+        margin-left: 0px;
+    }
+    .saleBlock{
+        width: 50vh;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .buttonsOnImage {
+        left: 30%;
+        top: 30%;
+        scale: 2;
+    }
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top: #000000 solid 1px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
