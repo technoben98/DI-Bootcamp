@@ -1,0 +1,150 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar */
+
+header{
+    height: 6vmax;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#NavBar{
+    width: 100%;
+    height: 6vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    margin-right: 2%;
+}
+ul li{
+    margin: 0px 5px;
+    text-transform: uppercase;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+header img{
+    height: 4vmax;
+    align-content: center;
+    margin-left: 2%;
+}
+
+/* Main Section */
+
+section{
+    width: 100vh;
+    position: relative;
+}
+
+h1{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-left: 10%;
+    margin-top: -50%;
+
+}
+
+#mainBlock {
+    height: 90vh;
+    width: 100vh;
+}
+
+section img {
+    height: 100%;
+    width: 100vmax;
+    display: block;
+    z-index: 1;
+}
+
+#mainInfo {
+    display: block;
+    position: absolute;
+    width: 90%;
+    z-index: 2;
+    top: 60%;
+    left: 10% ;
+}
+
+/* Responsive Design */
+
+/* Extra Large 1200px and up */
+
+@media screen and (max-width:1600px) {
+    header{
+        background-color: black;
+    }
+}
+
+
+/* Large 992px and up */
+
+@media screen and (max-width:1199px){
+    header{
+        background-color: red;
+    }
+
+    h1{
+        top: 120%;
+    }
+
+    #mainInfo{
+        top: 20%;
+        font-size: 1.4rem;
+    }
+}
+
+
+/* Medium 768px and up */
+
+@media screen and (max-width:991px) {
+    header{
+        background-color: lightgreen;
+    }
+
+    li a {
+        color: black;
+    }
+
+    #mainInfo{
+        font-size: 25px;
+    }
+}
+
+/* Small 600px and up */
+
+@media screen and (max-width:768px) {
+    header{
+        background-color: yellow;
+    }
+    li a {
+        color: black;
+    }
+
+    #mainInfo {
+        font-size: 35px;
+        top: 20%;
+        left: 4%;
+    }
+
+    h1{
+        top: 60%;
+    }
+}
