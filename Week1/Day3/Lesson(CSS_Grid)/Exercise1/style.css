@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    width: auto;
+}
+
+body{
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vmax;
+}
+#gridWrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(4, 15vmax);
+    column-gap: 2vh;
+    row-gap: 2vh;
+    margin: 5%;
+}
+
+#header{
+    border-bottom: black 2px solid;
+    height: 20px;
+    padding-left: 10px;
+}
+/* Styles for bg */
+.red{
+    background-color: red;
+    border: 2px solid;
+}
+
+.blue{
+    background-color: blue;
+    border: 2px solid;
+}
+
+#yellow{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-column: 1 / span 2;
+}

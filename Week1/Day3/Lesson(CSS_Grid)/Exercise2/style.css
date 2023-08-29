@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    width: auto;
+    height: auto;
+}
+
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vmax;
+    height: 100vmax;
+    background-color: blueviolet;
+}
+
+#gridWraper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    column-gap: 1vh;
+    row-gap: 1vh;
+    margin: 5%;
+    width: 80vmax;
+    height: 80vmax;
+    grid-template-areas: 
+    "a a a a a"
+    "b b c c c"
+    "b b c c c"
+    "d d c c c"
+    "d d e e e"
+    "f f f g g"
+    "h h h h h";
+}
+
+div{
+    color: white;
+    text-align: center;
+    
+}
+
+#header {
+    background-color: aqua;
+    grid-area: a;
+    width: 100%;
+    height: 100%;
+}
+
+#hero{
+    background-color: plum;
+    grid-area: b;
+    width: 100%;
+    height: 100%;
+}
+
+#mainContent{
+    background-color: yellow;
+    grid-area: c;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar{
+    background-color: lightgreen;
+    grid-area: d;
+    width: 100%;
+    height: 100%;
+}
+
+#extraContent{
+    background-color: gray;
+    grid-area: e;
+    width: 100%;
+    height: 100%;
+}
+
+#relatedImages{
+    background-color: green;
+    grid-area: f;
+    width: 100%;
+    height: 100%;
+}
+
+#relatedPosts {
+    background-color: pink;
+    grid-area: g;
+    width: 100%;
+    height: 100%;
+}
+
+#footer{
+    background-color: orange;
+    grid-area: h;
+    width: 100%;
+    height: 100%;
+}
+
