@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#flexContainer div{
+    background-color: skyblue;
+    margin: 5px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    align-items: center;
+}
+
+#flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    width: 95vmax;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 5px;
+}
+
+#first{
+    display: flex;
+    width: 60vmax;
+    height: 100px;
+}
+
+#second {
+    display: flex;
+    height: 100px;
+    width: 95vmax;
+}
+
+#third{
+    display: flex;
+    width: 60vmax;
+    height: 100px;
+}
+
