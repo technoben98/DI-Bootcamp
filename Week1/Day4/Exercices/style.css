@@ -1,0 +1,26 @@
+header .btn{
+    background-color: black;
+    margin-left: 0%;
+    width: fit-content;
+    margin: 0;
+}
+.col{
+    width: fit-content !important;
+}
+
+
+article{
+    width: 100vmax;
+}
+
+#jumbo{
+    width: 100vmax;
+}
+
+#headings{
+    margin-top: 5%;
+}
+
+.nav-link{
+    color: white;
+}
