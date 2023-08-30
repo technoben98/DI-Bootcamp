@@ -1,0 +1,26 @@
+*{
+    width: auto;
+    height: auto;
+}
+
+.yellowBox{
+    width: 50px;
+    background-color: yellow;
+    height: 50px;
+    border: 3px solid black;
+    margin: 5%;
+}
+
+#block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#center{
+    display: flex;
+    align-items: center;
+    width: 60vmax;
+    justify-content: center;
+}
+
