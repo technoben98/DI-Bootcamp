@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vmax;
+    height: fit-content;
+}
+
+article{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    margin-top: 2%;
+}
+
+/* Header */
+
+#header{
+    background-color: #32676D;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+}
+
+#buttonLearn{
+    background-color: #00A1D8;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    margin-left: 2%;
+}
+
+/* Form */
+
+h1{
+    text-align: center;
+    padding: 5%;
+}
+
+#form{
+    width: 70vmax;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    height: 6vmax;
+    font-size: 0.8em;
+}
+
+#selectFirst{
+    margin: 2% 0%;
+}
+
+#list li{
+    margin: 2% 0%;
+    list-style:none;
+}
+
+ul{
+    padding: 0%;
+}
+
+#selectSecond{
+    margin: 2% 0%;
+}
+
+input{
+    border: none;
+    height: 25px;
+    width: 22vmax;
+    border-radius: 3%;
+}
+
+select{
+    width: 70vmax;
+    height: 25px;
+    border: none;
+    border-radius: 3%;
+}
+
+#check{
+    width: 13px;
+}
+
+#checkbox{
+    display: flex;
+    align-items: center;
+    margin: 2% 0%;
+}
+
+#download{
+    text-align: center;
+    background-color: #00A1D8;
+    border: none;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 20vmax;
+    color: white;
+    font-weight: bold;
+    border-radius: 3%;
+}

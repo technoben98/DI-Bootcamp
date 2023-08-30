@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    width: auto;
+    height: auto;
+}
+
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vmax;
+    height: fit-content;
+    background-image: url(source/world.avif);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Heading */
+
+#topHeader{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    width: 65vmax;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#threeTopBlocks{
+    display: flex;
+    flex-direction: row;
+    width: 90vmax;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+}
+
+.textBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.number{
+    color: blue;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* Main Block */
+
+#mainBlocks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blocks{
+    box-shadow: 2px 1px 1px gray;
+    margin: 2%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 30vmax;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blocks p{
+    margin: 5%;
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+}
+
+.position {
+    color: white;
+}
+
+.bottomPart{
+    padding-top: 10%;
+}
+
+#firstBlock{
+    margin-top: -8%;
+}
+#firstBlock .bottomPart{
+    background-color: #FB8B8A;
+}
+
+#secondBlock{
+    margin-top: 8%;
+}
+
+#secondBlock .bottomPart{
+    background-color: #5C6AC4;
+}
+
+#thirdBlock .bottomPart{
+    background-color: #47C1BF;
+}
+
+img {
+    position: relative;
+    top: 45%;
+    left: 40%;
+}
