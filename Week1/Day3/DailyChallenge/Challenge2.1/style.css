@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 700px;
+    height: 688px;
+    border: 1px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first{
+    background-color: #FF7100;
+    width: 39px;
+    height: 39px;
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.second{
+    background-color: #FFB26D;
+    width: 39px;
+    height: 39px;
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.third{
+    background-color: #A84A00;
+    width: 39px;
+    height: 39px;
+    margin: 1px;
+    border: 1px solid black;
+}
+
+#wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
