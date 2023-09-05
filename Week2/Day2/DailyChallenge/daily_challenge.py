@@ -14,7 +14,11 @@
 
 word = input("Your word:\n")
 new_word = []
+prev_letter = " "
+current_letter = " "
 for i in word :
-    if i not in new_word:
-        new_word.append(i)
+    current_letter = i
+    if current_letter != prev_letter:
+        new_word.append(current_letter)
+        prev_letter = i
 print(''.join(new_word))
