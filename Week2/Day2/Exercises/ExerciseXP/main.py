@@ -72,8 +72,10 @@
 # Use a for loop to print all numbers from 1 to 20, inclusive.
 # Using a for loop, that loops from 1 to 20(inclusive), print out every element which has an even index.
 
-# for i in range(20):
-#     print(i+1)
+# numbers = list(range(1,21))
+# for each_num in numbers:
+#     if numbers.index(each_num) % 2 == 0:
+#         print(each_num)
 
 
 # 🌟 Exercise 6 : While Loop
@@ -164,7 +166,16 @@
 #         total_price += 15
 # print(f"Your total price is {total_price}.")
 
-# names_list = []
+# teenagers = ['John', 'Jane', 'Mark', 'Mike', 'Kate']
+# for teen in teenagers[:]:
+#     age = int(input(f"{teen}, what is your age?:\n"))
+#     if 16 <= age <= 21:
+#         print(f"{teen}, you are allowed")
+#     else:
+#         teenagers.remove(teen)
+#         print(f"{teen}, you are not allowed")
+# print(teenagers)
+
 # while True:
 #     name = input("Type your name or type 'quit' if you wont finish:\n")
 #     if name == "quit":
