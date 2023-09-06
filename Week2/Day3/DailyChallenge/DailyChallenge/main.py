@@ -33,6 +33,7 @@
 #     if int(price_temp) <= int(wallet):
 #         my_items.append(item)
 #         wallet -= price_temp
+# my_items.sort()
 # print(my_items)
 
 
@@ -59,6 +60,7 @@
 # if len(my_items) == 0:
 #     print("Nothing")
 # else:
+#     my_items.sort()
 #     print(my_items)
 
 # ➞ ["Apple", "Bananas", "Fan", "Honey", "Pan", "Spoon"]
@@ -82,4 +84,5 @@
 # if len(my_items) == 0:
 #     print("Nothing")
 # else:
+#     my_items.sort()
 #     print(my_items)
