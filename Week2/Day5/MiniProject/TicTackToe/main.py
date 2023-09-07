@@ -1,6 +1,6 @@
-print("*"*10, "Tic-Tac-Toe", "*"*10)
 board = list(range(1,10))
 def display_board(board):
+    print(" TIC-TAC-TOE")
     print("-" * 13)
     for i in range(3):
         print("|", board[0+i*3], "|", board[1+i*3], "|", board[2+i*3], "|")
