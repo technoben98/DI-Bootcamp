@@ -9,4 +9,4 @@ for i in range(len(list_of_numbers)):
         if list_of_numbers[i] + list_of_numbers[j] == target_number:
             count += 1
 
-print(f"Number of pairs that sum up to {target_number} : , {count}")
+print(f"Number of pairs that sum up to {target_number} : {count}")
