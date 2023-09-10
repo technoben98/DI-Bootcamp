@@ -31,3 +31,5 @@ longest_word(sentence1)     # Checking that it works
 longest_word(sentence2)     # Checking that it works
 longest_word(sentence3)     # Checking that it works
 longest_word(sentence4)     # Checking that it works
+sentence5 = "Hihihi hihihi hihihi good"
+longest_word(sentence5)
