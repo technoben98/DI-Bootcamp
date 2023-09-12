@@ -106,10 +106,33 @@ class Developer(employees.Employee):
     def get_promotion(self, coficient):
         salary = self.salary*coficient
         return salary
+    
+    def __gt__ (self, other_developer):
+        if self.salary > other_developer.salary :
+            print(f"{self.get_fullname()} salary is bigger than {other_developer.get_fullname()}")
+        else :
+            print(f"{other_developer.get_fullname()} salary is bigger than {self.get_fullname()}")
+
+    def __add__ (self, other_developer):
+        names = f"{self.firstname} and {other_developer.firstname}"
+        lastnames = f"{self.lastname} and {other_developer.lastname}"
+        age = self.age + other_developer.age
+        salary = self.salary + other_developer.salary
+        return Developer(names, lastnames, age, salary=salary)
+    
+    def __str__(self) :
+        return f"{self.firstname} {self.lastname}, {self.age} years old. Job is {self.job} with a salary of {self.salary} NIS."
+        
+
 
 developer1 = Developer("Tom", "Cruiz", 30)
 developer2 = Developer("Angelina", "Jolie", 23)
 developer1.add_skills("Java", "MySQL")
 developer2.add_skills("HTML+CSS", "JavaScript")
-developer1.coding_with_partner(developer2)
-print(developer1.get_promotion(1.3))
+# developer1.coding_with_partner(developer2)
+developer1.get_promotion(1.3)
+
+print(developer1 < developer2)
+print(developer1)
+print(developer2)
+print(developer1 + developer2)
