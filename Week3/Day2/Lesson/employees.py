@@ -1,4 +1,13 @@
 class Employee :
+
+    @classmethod
+    def create_best_employee(cls, salary):
+        if salary > 30000:
+            return cls("Kosta", "Green", 25, "developer", salary)
+        else:
+            print("Your salary too low")
+        
+
     def __init__(self, firstname, lastname, age, job, salary):
         self.firstname = firstname
         self.lastname = lastname
@@ -18,7 +27,8 @@ class Employee :
     def show_info (self) :
         print(f"{self.get_fullname()} is {self.age} years old, his job is {self.job} and his salary is {self.salary}")
     
-
+new_emp = Employee.create_best_employee(34000)
+print(new_emp.__dict__)
 
 # Program should be a function
 # that contains a few lists
