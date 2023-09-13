@@ -5,10 +5,10 @@ class Circle:
     PI = 3.14
     instances = 0
     
-    def __init__(self,number, radius = 5):
+    def __init__(self,number, radius = None, diameter = None):
         self.number = number
-        self.radius = radius
-        self.diameter = radius*2
+        self.radius = diameter / 2 if diameter != None else radius
+        self.diameter = radius * 2 if radius != None else diameter
         Circle.instances +1
         self.area = self.calculate_area()
 
