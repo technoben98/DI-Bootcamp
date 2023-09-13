@@ -17,7 +17,7 @@
 # colorize("My text is", "cyan")
 
 # Exercise 2
-import os
+# import os
 
-with open("nameslist.txt") as txt:
-    print(txt.readlines())
+# with open("nameslist.txt") as txt:
+#     print(txt.readlines())
