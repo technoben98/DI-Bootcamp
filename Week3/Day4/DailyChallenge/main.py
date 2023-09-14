@@ -1,12 +1,12 @@
 class Text:
     def __init__(self, text):
-        self.text = text
+        self.text = text.lower().replace(".", "")
 
     @classmethod
     def from_file(cls, path):
         with open(path, "r") as file:
             text = file.read()
-        return cls(text)
+        return cls(text.strip())
 
     def get_word_frequency(self, word):
         words = self.text.split()
