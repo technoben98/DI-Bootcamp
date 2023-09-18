@@ -1,0 +1,28 @@
+-- create table student(
+-- 	id serial primary key,
+-- 	first_name varchar(30),
+-- 	last_name varchar(30),
+-- 	birth_date date
+-- );
+
+-- insert into student(first_name, last_name, birth_date)
+-- values
+-- ('Marc', 'Benichou', '02/11/1998'),
+-- ('Yoan', 'Cohen', '03/12/2010'),
+-- ('Lea', 'Benichou', '27/07/1987'),
+-- ('Amelia', 'Dux', '07/04/1996'),
+-- ('David', 'Grez', '14/06/2003'),
+-- ('Omer', 'Simpson', '03/10/1980')
+-- ;
+-- select * from student;
+-- select first_name, last_name from student;
+
+-- select first_name, last_name from student where id = 2;
+-- select first_name, last_name from student where last_name = 'Benichou' and first_name = 'Marc';
+-- select first_name, last_name from student where last_name = 'Benichou' or first_name = 'Marc';
+-- select * from student where first_name like '%a%';
+-- select * from student where first_name like 'A%';
+-- select * from student where first_name like '%a';
+-- select * from student where first_name like '%_a%';
+-- select first_name, last_name from student where id in(1,3);
+-- select first_name, last_name from student where birth_date >= '01/01/2000';
