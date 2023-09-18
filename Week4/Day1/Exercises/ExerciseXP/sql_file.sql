@@ -1,0 +1,31 @@
+-- create table items (
+-- id serial primary key,
+-- item_name varchar(50),
+-- price numeric
+-- );
+-- create table customers(
+-- id serial primary key,
+-- firstname varchar(50),
+-- lastname varchar(50)
+-- );
+-- insert into items (item_name, price)
+-- values
+-- ('Small Desk', 100),
+-- ('Large desk', 300),
+-- ('Fan', 80);
+
+-- insert into customers (firstname, lastname)
+-- values
+-- ('Greg', 'Jones'),
+-- ('Sandra', 'Jones'),
+-- ('Scott', 'Scott'),
+-- ('Trevor', 'Green'),
+-- ('Melanie', 'Jonhson');
+
+-- select * from items;
+-- select * from customers;
+-- select * from items where price > 80;
+-- select * from items where price <= 300;
+-- select * from customers where lastname = 'Smith'
+-- select * from customers where lastname = 'Jones'
+-- select * from customers where firstname != 'Scott'
