@@ -1,0 +1,31 @@
+Q1. What will be the OUTPUT of the following statement?
+    SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NULL )
+
+The output of the given SQL statement will be the count of rows in the "FirstTab" table where the id is not present in the "SecondTab" table as well as not NULL.
+
+
+Q2. What will be the OUTPUT of the following statement?
+
+    SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id = 5 )
+
+The output of the given SQL statement will be the count of rows in the "FirstTab" table where the id is not equal to 5 in the "SecondTab" table.
+
+Q3. What will be the OUTPUT of the following statement?
+
+    SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab )
+
+The output of the given SQL statement will be the count of rows in the "FirstTab" table where the id is not present in the "SecondTab" table. In other words, it will return the number of rows in "FirstTab" table where the id does not have a matching value in the "SecondTab" table.
+
+
+Q4. What will be the OUTPUT of the following statement?
+
+    SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NOT NULL )
+
+Q4. What will be the OUTPUT of the following statement?
+
+    SELECT COUNT(*) 
+    FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NOT NULL )
