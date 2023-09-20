@@ -3,7 +3,7 @@
 
 
 # def get_info_weather_by_city(city):
-#     owm = pyowm.OWM('eed88e9f82857b64e833b72b90d91480')
+#     owm = pyowm.OWM('.......')
 #     mgr = owm.weather_manager()
 
 #     observation = mgr.weather_at_place(city)
@@ -34,7 +34,7 @@ def init_plot(): plt.ylabel('Humidity (%)')
 plt.title('Three-day Humidity Forecast')
 
 def plot_humidity(city): 
-    owm = pyowm.OWM('eed88e9f82857b64e833b72b90d91480') 
+    owm = pyowm.OWM('......') 
     mgr = owm.weather_manager() 
     forecast = mgr.forecast_at_place(city, '3h')
     now = datetime.now()
