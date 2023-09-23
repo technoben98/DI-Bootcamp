@@ -244,8 +244,8 @@
 
 # Exercise 20
 
-def hide_password(): 
-    password = input("Type your password:\n")
-    return '*' * len(password)
+# def hide_password(): 
+#     password = input("Type your password:\n")
+#     return '*' * len(password)
 
-print(hide_password())
+# print(hide_password())
