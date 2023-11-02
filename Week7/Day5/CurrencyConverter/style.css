@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://archive.unews.utah.edu/wp-content/uploads/2021/03/Cash.jpg");
+}
+
+#converterBody {
+  background-color: rgb(83, 2, 83);
+  display: block;
+  text-align: center;
+  height: 70vh;
+  margin: auto;
+  width: 40%;
+  opacity: 0.9;
+  color: white;
+}
+
+#wrapper {
+  font-size: x-large;
+}
+select {
+  background-color: rgb(83, 2, 83);
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 3%;
+}
+input {
+  background-color: rgb(83, 2, 83);
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+#result {
+  border: 2px solid white;
+  height: 30px;
+  width: 20vw;
+  margin: auto;
+  color: white;
+}
