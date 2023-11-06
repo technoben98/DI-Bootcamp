@@ -20,3 +20,4 @@ const fetchPosts = async () => {
 module.exports = {
   fetchPosts,
 };
+//
