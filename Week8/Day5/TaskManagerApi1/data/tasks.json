@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "New Task",
+    "description": "Description of the new task"
+  },
+  {
+    "id": 2,
+    "title": "Updated Task",
+    "description": "Updated description"
+  }
+]
