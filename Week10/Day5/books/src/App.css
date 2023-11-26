@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+.search {
+  text-align: center;
+  align-self: center;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  width: 20vw;
+  border: 1px solid gray;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.cards img {
+  width: 200px;
+  height: 200px;
+}
